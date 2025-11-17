@@ -1,0 +1,206 @@
+!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Balbone ezechiel, développeur web en devenir, Découvrez mes projets en HTML, CSS, Javascript et plusencore.">
+    <meta name="author" content="Balbone Ezechiel">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="classe.css">
+    <link rel="stylesheet" href="fooster.css">
+    <link rel="stylesheet" href="app.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--menu-->
+    <header>
+        <h1>Balbone + <span>Ezechiel</span></h1>
+        <div class="icon_menu_respond">
+            <img id="closeMenu" onclick="menuDisppart();" src="image.jpg" alt="image">
+            <img id="openMenu" onclick="menuAppart();" src="image.jpg" alt="image">
+
+        </div>
+        <nav>
+            <ul>
+                <li id="elementA"><a href="#acceuil" class="active">Acceuil</a></li>
+                <li id="elementB"><a href="#aPropos">À propos</a></li>
+                <li id="elementC"><a href="#projets">Projets</a></li>
+                <li id="elementD"><a href="#competences">Compétences</a></li>
+                <li id="elementE"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentation" id="acceuil">
+            <div class="presentation_flex">
+                <div class="present_grid">
+                    <div class="present_grid_text">
+                        <div class="present_grid_text_flex">
+                            <h2 data-aos="zoom-in">Je suis <span>Ezechiel</span>, Pharmacien  <br>
+                                passionné par le web et le design !</h2>
+                            <a href="#projets"><button data-aos="zoom-in">Voir mes projets</button></a>
+                        </div>
+
+                    </div>
+                    <div class="present_grid_img">
+                        <img data-aos="zoom-in" src="image .jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aPropos">
+            <h2 data-aos="zoom-in">À Propos</h2>
+            <div class="aPropos_grid">
+                <div class="aPropos_grid_text">
+                    <div>
+                        <p data-aos="zoom-in">Je m'appelle <span>Balbone Ezechiel</span>, passionné par la <br> création de sites web
+                            modernes et interactifs <br><br>
+
+                            Je suis actuellement étudiant(e) en <span>développement web</span>,<br> et je cherche à
+                            améliorer mes compétences en JavaScript, HTML, et CSS. <br><br>
+
+
+                            J'adore transformer mes idées en projets concrets <br> et expérimenter avec les nouvelles
+                            technologies.</p>
+                        <div class="button_div_propos">
+                            
+                            <a href="Balbone CV.pdf" download><button data-aos="zoom-in">Télécharger mon CV</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="aPropos_grid_img">
+                    <img data-aos="zoom-in" src="image..jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="projets">
+            <h2 data-aos="zoom-in">Mes Projets</h2>
+            <div class="projets_grid">
+                <div data-aos="zoom-in">
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <p class="martop">#html, #css#est</p>
+                    <a href="https://fr.wikipedia.org/wiki/JavaScript"><button>Voir</button></a>
+                </div>
+                <div data-aos="zoom-in">
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <p class="martop">#html, #css#est</p>
+                    <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"><button>Voir</button></a>
+                </div>
+                <div data-aos="zoom-in">
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM. </p>
+                    <p class="martop">#html, #css#est</p>
+                    <a href="https://javascript.info/"><button>Voir</button></a>
+                </div>
+        </section>
+
+        <section id="competences">
+            <h2 data-aos="zoom-in">Mes Compétences</h2>
+            <div class="competences_grid">
+                <div class="competences_container" data-aos="zoom-in">
+
+                    <h3 >Soft Skills</h3>
+                    <div class="bar_skills">
+                        <p>Gestion de projet</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar1"></div>
+                        </div>
+
+                        <p class="marginT-10"> Résolution de problème</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar2"></div>
+                        </div>
+
+                        <p class="marginT-10">Adaptabilité</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar3"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="competences_container" data-aos="zoom-in">
+                    <h3>Hard Skills</h3>
+                    <div class="bar_skills">
+                        <p class="marginT-10">HTML</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar4"></div>
+                        </div>
+
+                        <p class="marginT-10">CSS</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar5"></div>
+                        </div>
+                        <p class="marginT-10">Javascript</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar6"></div>
+                        </div>
+
+                        <p class="marginT-10">VS Code</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar7"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2 data-aos="zoom-in">Vous avez <span>un projet en tête ?</span> </h2>
+            <h3 data-aos="zoom-in">N'hésitez pas à me <span>contacter</span></h3>
+
+            <div class="contact_input_div" data-aos="zoom-in">
+                <div class="contact_input_grid">
+                    <div>
+                        <label for="prenom">Votre prénom</label>
+                        <input id="prenom" type="text" placeholder="Ezechiel">
+                    </div>
+                    <div>
+                        <label for="nom">Votre nom</label>
+                        <input id="nom" type="text" placeholder="Balbone">
+                    </div>
+                </div>
+
+                <div class="contact_input_block">
+                    <div>
+                        <label for="sujet">Votre sujet</label>
+                        <input id="sujet" type="text" placeholder="Developpement d'un site Web">
+                    </div>
+
+
+                    <textarea
+                        placeholder="Bonjour, Je souhaite créer un site Web avec une présentation, mes services, un portfolio et un contact. Il doit être moderne, responsive et optimisé SEO."></textarea>
+                </div>
+
+                <div class="button_div">
+                <button> Envoyer</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_grid">
+            <div>
+                <p>Designed by <span>Balbone Ezechiel</span> with HTML CSS JS</p>
+            </div>
+            <div>
+                <p>Tous droits réservés - 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
